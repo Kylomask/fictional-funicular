@@ -15,6 +15,8 @@ var arrows;
 
 
 function setup() {
+  engine = Engine.create();
+  world = engine.world;
   canvas = createCanvas(windowWidth, windowHeight);
 
   engine = Engine.create();
